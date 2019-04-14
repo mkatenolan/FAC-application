@@ -38,5 +38,27 @@ p{
 	margin-left:auto;
 }
 
+#links{
+	position:relative;
+	width:100%;
+	max-width:300px;
+	margin:auto;
+	padding:10px;
+}
+
+.logos {
+	position:absolute;
+	right:0;
+    width:100%;
+	max-width:50px;
+	height:auto;
+	border-radius:50%;
+	display:inline-block;
+	margin-right:auto;
+	margin-left:auto;
+
+}
+
+
 
 
