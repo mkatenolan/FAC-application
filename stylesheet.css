@@ -1,0 +1,23 @@
+
+
+
+h1{
+	text-align:center;
+}
+
+h2{
+	text-align:center;
+}
+
+#intro-photo {
+	width:100%;
+	max-width:200px;
+	height:auto;
+	border-radius:50%;
+	display:block;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+
+
