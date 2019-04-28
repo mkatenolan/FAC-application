@@ -39,7 +39,7 @@ align-items:center;
 float:right;
 }
 
-ul {
+ ul {
 
 	position:absolute;
 	margin-top:15px;
@@ -59,13 +59,13 @@ ul {
 	transition: all 0.4s ease;
 }
 
-li{ 
+ li{ 
 	display:none;
 	align-items:left;
 	margin:5px;
 }
 
-li:hover {
+ li:hover {
 	background-color:#DCDCDC;
 }
 
@@ -81,7 +81,7 @@ li:hover {
 	text-decoration: underline dotted;
 	border: none;
 	outline:none;
-	color:black;
+	color:#464646;
 	font-size:30px;
 	cursor:pointer;
 	font-family:'Amatic SC', cursive;
@@ -92,6 +92,16 @@ button:focus + ul {
 	pointer-events:all;
 	transform: translateY(0px);
 }
+
+#menu:hover{
+background-color:#DCDCDC;
+}
+
+#home:hover {
+background-color:#DCDCDC;	
+}
+
+
 
 
 
@@ -121,7 +131,7 @@ h2{
 	letter-spacing:2px;
 	font-size:25px;
 	margin-top:20px;
-	color:#36454f;
+	color:#464646;
 }
 
 #sub-title{
@@ -142,6 +152,9 @@ h2{
 	cursor: pointer;
 		
 	}
+#arrow-img:hover{
+	background-color:#DCDCDC;
+}
 
 #intro-photo {
 	width:100%;
@@ -158,9 +171,9 @@ h2{
 /*About Me container */
 
 #about-me{
-	background-color:black;
+	background-color:#464646;
 	padding-top: 3px;
-	padding-bottom:5px;
+	padding-bottom:10px;
 }
 
 #about-me p {
@@ -174,8 +187,9 @@ h2{
 p {
 	font-family:'Nixie One', sans-serif;
     font-size:12px;
-    margin-right:15px;
-    margin-left:15px;
+    margin-right:20px;
+	margin-left:20px;
+	margin-bottom:50px;
 	color: #22252C;
 	text-align: justify;
 	letter-spacing:0.2px;
@@ -186,7 +200,7 @@ p {
 /* Reflections container */ 
 
 #reflections {
-	background-color: black;
+	background-color: #464646;
 	padding-top: 3px;
 	padding-bottom:5px;
 }
@@ -305,7 +319,7 @@ align-items:center;
 float:right;
 }
 
-ul {
+ ul {
 
 	position:absolute;
 	margin-top:15px;
@@ -325,14 +339,14 @@ ul {
 	transition: all 0.4s ease;
 }
 
-li{ 
+ li{ 
 	display:block;
 	align-items:left;
 	margin:5px;
 	color:#FFC0CB;
 }
 
-li:hover {
+ li:hover {
 	background-color:#DCDCDC;
 }
 
@@ -375,7 +389,7 @@ h2 {
 }
 
 p{
-	font-size: 2vw;
+	font-size: 1.5vw;
 }
 h1{
 	padding:0px;
