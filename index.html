@@ -17,21 +17,23 @@
 <!-- header section with menu and links --> 
 	
 
-<nav id="nav-bar"> 
+	<nav id="nav-bar"> 
 
 <button id="home" onclick="window.location.href='#intro'" > Home </button>
 
 
-<div id="dropdown">
+	<div id="dropdown">
 
-	<div id="menu-container">
-<button id="menu"> Menu </button> 
+<div id="menu-container">
+
+	<button id="menu"> Menu </button> 
+
 
 <ul class="list">
 
-<li> <a href="#first-section">About Me</a></li>
+	<li> <a href="#first-section">About Me</a></li>
 	<li> <a href="#second-section">Why F&C? </a></li>
-	<li> <a href="https://codepen.io/mkatenolan/pen/eoPOVv" target="_blank">Slideshow</a></li>
+	<li> <a href="#image-carousel">Slideshow</a></li>
 	<li> <a href="#third-section">Reflections</a></li>
 	<li> <a href="#links">Links</a></li>
 
@@ -51,7 +53,7 @@
 
 	<h1>  Martha Nolan </h1>
 
-<img id="intro-photo" alt= "My Face!" src="martha.jpg"> 
+<img id="intro-photo" alt= "My Face!" src="marthaNYC.jpg"> 
 
 	<h1 id="sub-title"><stong> Founders & Coders Application </stong><br>
 	April 2019 </h1>
@@ -59,6 +61,7 @@
 </div>
 
 <div id="arrow"> 
+
 	<a href="#about-me"><img id="arrow-img" alt="arrow" src=down-arrow.svg>
 		</a>
 </div>
@@ -72,7 +75,10 @@
 	<h2> About Me </h2>
 <p> 
 
-		<b> Hi, I’m Martha! </b> I grew up in sunny Bournemouth and have lived in Kent, Spain and Germany since finishing school in 2010. I moved to London last October from Berlin, where I lived and worked for two years. I’m still employed by a German media start-up called Opinary, where I‘ve undertaken several roles. When I voiced my plans to become a developer, they were extremely supportive and offered me a role within the product team for several months. I now work as a QA and Support Engineer and it has only solidified my interest further. Since graduating from a literature and linguistics degree, I’ve been searching for a career path that makes sense for me and have worked in education, content & sales. None of those roles have felt quite right and software development is something that has stuck. It allows me to use my logical and analytical side, as well as the creative one and I find it hugely rewarding. I first came across coding several years ago when a friend recommended I give it a go. I dabbled with Codecademy but didn’t consider it to be a realistic possibility. Over the last few years it has kept coming back to me and is now something that I want to pursue seriously. When I’m not learning to code, I enjoy reading, going to gigs, playing the drums and exploring London with friends. 
+		<b> Hi, I’m Martha! </b>
+		
+I grew up in sunny Bournemouth and have lived in Kent, Spain and Germany since finishing school in 2010. I moved to London last October from Berlin, where I lived and worked for two years. I’m still employed by a German media start-up called Opinary where I’ve undertaken several roles. When I voiced my plans to become a developer, they were really encouraging and offered me a role within the product team for several months. I now work as a QA and Support Engineer and it has only further solidified my interest in coding. Since graduating from a literature and linguistics degree, I’ve been searching for a career path that makes sense for me and have worked in education, content and sales; none of those roles have felt quite right and software development is something that has really stuck. It allows me to work both logically and analytically alongside working creatively, and this is something I find hugely rewarding. I first came across coding several years ago when a friend recommended I give it a go. I dabbled with Codecademy but didn’t consider it to be a realistic possibility. Over the last few years it has kept coming back to me and is now something that I want to pursue seriously. When I’m not learning to code, I enjoy reading, going to gigs, playing the drums and exploring London with friends! 
+		 
 
 
 </p>
@@ -85,34 +91,74 @@
 
 	<h2> Why F&C? </h2>
 <p>
-		When I came across Founders and Coders, I was immediately drawn to its ethos and unique learning style. The work I find most satisfying is either mentally challenging or contributing something useful to society. Founders and Coders puts emphasis on both and I would love the opportunity to work with, support and learn from a diverse group of people with the same goal. Since witnessing colleagues in the product team at work, I can see how much the F&C way of learning prepares you for a career as a software developer. From what I’ve seen at the Meetups and short course, it’s clear that a lot of effort goes into fostering a team-focused, supportive learning environment and it’s a community I’d love to be a part of and be able to give back to. What I love about software development are the endless possibilities and industries in which it can be utilized. The Tech for Better programme is inspiring and such a great use of the time that students spend on the course. Finally, I’m passionate about diversity and tech is one of the most impactful and least diverse sectors there is. I’d love to be part of an organisation that shares that passion and hope it can make a real change. 
+
+When I came across Founders and Coders, I was immediately drawn to its ethos and unique learning style. The work I find most satisfying is either mentally challenging or contributing something useful to society; Founders and Coders puts emphasis on both, and I would love the opportunity to work with, support, and learn from a diverse group of people with the same goal. Since witnessing colleagues in the product team at work, I can see how much the Founders and Coders way of learning prepares you for a career as a software developer. From what I’ve seen at the meetups and short course, it’s clear that a lot of effort goes into fostering a team-focused, supportive learning environment and it’s a community I’d love to be a part of, but also be able to give back to. What I love about coding are the endless possibilities and industries in which it can be utilized. The ‘Tech for Better’ programme is inspiring and such a great use of the time that students spend on the course. Finally, I’m passionate about diversity and tech is one of the most impactful and least diverse sectors there is. I’d love to be part of an organisation that is trying to make a difference and hope I can make my own small contribution. 
 
 </p>
 	</div>
+
+<div id="image-carousel"> 
+
+	<!--image containter-->
+
+<div class="carousel-conatiner"> 
+
+	<h2>A few of my favourite musicians</h2>
+  
+		<div class="myImages fade"> 
+		  <div class="numberText"> 1/4 </div>
+		  <img src="http://slowdive.narod.ru/slowdive/slowdive_328.jpg">
+		  <div class="caption"> Rachel Goswell, Slowdive </div>
+		</div> 
+		
+		<div class="myImages fade">
+		  <div class="numberText"> 2/4 </div> 
+		  <img src="https://www.rollingstone.com/wp-content/uploads/2018/06/rs-14034-stevie-1800-1389377724.jpg?crop=900:600&width=440">
+		  <div class="caption"> Stevie Nicks, Fleetwood Mac </div> 
+		</div> 
+		
+		<div class="myImages fade">
+		  <div class="numberText"> 3/4 </div>
+		  <img src="https://i.ytimg.com/vi/EFusD6px08E/maxresdefault.jpg">
+		  <div class="caption"> Elizabeth Fraser, Cocteau Twins </div>
+		</div>
+		
+		<div class="myImages fade"> 
+		  <div class="numberText"> 4/4 </div>
+		  <img src="https://i.kinja-img.com/gawker-media/image/upload/s--gcstRw_n--/c_scale,f_auto,fl_progressive,q_80,w_800/zps7wbcqwkfjjo6xl1se.jpg">
+		  <div class="caption"> Brittany Howard, Alabama Shakes </div>
+		</div> 
+	  
+	  <!--Navigation buttons-->
+<div id="controls-container">
+	  <a id="previous"> &#60</a> 
+		<a id="play-pause"> || </a>
+	  <a id="next"> &#62</a>
+</div>	
+	  </div> 
+	  <br>
+
+
+
+</div>
+
+<!--Reflections on prerequisites section-->
+
 <span id="third-section"></span>
+
 <div id="reflections">
+
 	<h2>Reflections on the prerequisites</h2>
 <p>
 
-		When I first started learning Javascript it felt abstract and hard to see how it can actually be applied to web pages. Making the image carousel was a good introduction to that and DOM manipulation will be an area of focus for me in the next few weeks.
-
-
-		I started my website without a real plan and I think I would have benefited from thinking it through a little more before starting to write any code. 
-
-
-		I designed the site for desktop and it has been a challenge to go back and make it responsive on mobile and tablet. I would design mobile-first next time. 
-
-
-		I’m only just realising how powerful CSS is and I have an awful lot more to learn. Given more time, I would have made better use of animation etc. This will also be an area of focus for me over the next couple of weeks. 
-
-
-
+	When I first started learning Javascript it seemed abstract to me, and I struggled to see how it could actually be applied to web pages. Making the image carousel has been a good introduction to that and DOM manipulation will be an area of focus for me in the next few weeks. I started my website without a real plan and I think I would have benefited from thinking it through a little more before starting to write any code. It’s highlighted the importance of the basic structure and layout of the page, especially when it comes to responsiveness. I designed the site for desktop and it has been a challenge to go back and make it display well on mobile and tablet. I’ll definitely design mobile-first in the future! I think my knowledge of CSS is still quite limited and I’m just realising how powerful it is. Given more time, I would have made better use of animation etc. and this will also a focus for me in my next stages of studying. 
 
 	
 </p>
 	
 </div>
 
+<!--Links to profiles -->
 
 
 <span>	<h2>Links to my personal profiles</h2> </span>
@@ -145,12 +191,12 @@
 
 </div>
 
+<!--Footer-->
 
 <div id="footer"> 
-	<h3> <b>Website created by Martha Nolan <br> Contact: mkatenolan@gmail.com </b> </h3>
+	<h3> <b>Website created by Martha Nolan <br> Contact:<a id="email" href="mailto: mkatenolan@gmail.com" target="_blank"> mkatenolan@gmail.com </a> </b> </h3>
 </div>
 </div>
-
 
 
 
@@ -165,11 +211,94 @@
 		function stickyNav(){
 			if (window.pageYOffset >= sticky){
 				navbar.classList.add("sticky")
+				
 			} else {
 				navbar.classList.remove("sticky");
 			}
 		}
 	</script>
+
+<!--Image Carousel Script-->
+<script> 
+
+document.addEventListener('keydown', function(event) {
+  if (event.keyCode == 39) {
+    pauseSlides();
+    nextSlide();
+  } else if (event.keyCode == 37){
+    pauseSlides();
+    prevSlide();
+  }
+});
+
+//play & pause//
+var slideIndex = 0;
+var slides = document.getElementsByClassName("myImages");
+var slideInterval = setInterval(nextSlide, 2000);
+
+function nextSlide() {
+  showSlides(slideIndex +1);
+};
+
+function prevSlide() {
+  showSlides(slideIndex -1);
+};
+
+// Autoplay //
+
+showSlides();
+
+function showSlides() {
+  var i;
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1} 
+  slides[slideIndex-1].style.display = "block"; 
+};
+
+var playing = true;
+var control = document.getElementById("play-pause");
+
+
+function pauseSlides () {
+  control.innerHTML = "&#62";
+  playing = false;
+  clearInterval(slideInterval);
+};
+
+function playSlides () {
+  control.innerHTML = "||";
+  playing = true;
+  slideInterval = setInterval(nextSlide, 2000);
+};
+
+control.onclick = function () {
+if (playing){
+  pauseSlides();
+} else {
+  playSlides();
+  }
+};
+
+var prev = document.getElementById("previous");
+var next = document.getElementById("next");
+
+next.onclick = function () {
+  pauseSlides();
+  nextSlide();
+};
+
+prev.onclick = function () {
+  pauseSlides();
+  prevSlide();
+};
+
+
+
+
+</script>
 
 
 	</body>
