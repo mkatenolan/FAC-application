@@ -375,9 +375,14 @@ h3{
 	font-weight:bold;
 }
 
-#email {
+#email-btn {
 	color: black;
 	text-decoration:none;
+	cursor:pointer;
+}
+
+#email-btn:hover {
+	background-color:#464646;
 }
 
 
