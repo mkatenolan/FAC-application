@@ -17,7 +17,7 @@
 <!-- header section with menu and links --> 
 	
 
-	<nav id="nav-bar"> 
+	<nav id="nav-bar" class="sticky"> 
 
 <button id="home" onclick="window.location.href='#intro'" > Home </button>
 
@@ -130,6 +130,7 @@ When I came across Founders and Coders, I was immediately drawn to its ethos and
 		</div> 
 	  
 	  <!--Navigation buttons-->
+	  
 <div id="controls-container">
 	  <a id="previous"> &#60</a> 
 		<a id="play-pause"> || </a>
@@ -203,24 +204,6 @@ When I came across Founders and Coders, I was immediately drawn to its ethos and
 </div>
 </div>
 
-
-<!--Sticky Nav Bar-->
-
-<script> 
-		window.onscroll = function() {stickyNav()};
-	
-		var navbar = document.getElementById("nav-bar");
-		var sticky = navbar.offsetTop;
-	
-		function stickyNav(){
-			if (window.pageYOffset >= sticky){
-				navbar.classList.add("sticky")
-				
-			} else {
-				navbar.classList.remove("sticky");
-			}
-		}
-	</script>
 
 <!--Image Carousel Script-->
 <script> 
@@ -300,16 +283,18 @@ prev.onclick = function () {
 };
 
 
-
-
 </script>
 
+
 <!--email script-->
+
 <script>
+
 function email() {
 	window.location="mailto:mkatenolan@gmail.com "
 	console.log("Email Martha");
 }
+
 </script>
 
 	</body>

@@ -31,7 +31,6 @@ nav{
 }
 
 #dropdown{
-background-color:#F5F4EB;
 margin:auto;
 display:none;
 justify-content:flex-end;
@@ -66,7 +65,7 @@ float:right;
 }
 
  li:hover {
-	background-color:#DCDCDC;
+	background-color:#464646;
 }
 
 .list a{
@@ -93,14 +92,6 @@ button:focus + ul {
 	transform: translateY(0px);
 }
 
-#menu:hover{
-background-color:#A9A9A9;
-}
-
-#home:hover {
-background-color:#A9A9A9;	
-}
-
 /* Intro section container */
 
 #intro {
@@ -110,7 +101,7 @@ background-color:#A9A9A9;
 h1{
 	padding:10px;
 	display:absolute;
-	margin-top:20px;
+	margin-top:30px;
 	margin-bottom:0;
 	text-align:center;
 	font-family:'Amatic SC', cursive;
@@ -217,8 +208,12 @@ p {
 }
 
 img {
-  width:100%;
+	width:100%;
+	max-height:350px;
+	-webkit-filter:contrast(1);
+	filter: contrast(1.5);
 }
+
 
 #controls-container {
 	margin-top: 10px;
@@ -240,6 +235,7 @@ img {
   border-radius: 0 5px 5px 0;
 	user-select: none;
 	letter-spacing:10px;
+	font-size:20px;
 }
 
 #next {
@@ -334,14 +330,14 @@ img {
 	stroke:#FFC0CB;
 }
 
-.logos:hover {
+#menu:hover, #home:hover, .logos:hover {
 	animation-name:logo-hover;
 	animation-duration:1000ms;
 }
 
 @keyframes logo-hover {
 	100% {
-		background-color:#DCDCDC;
+		background-color:#464646;
 	}
 }
 
@@ -486,27 +482,49 @@ button:focus + ul {
 }
 
 #sub-title {
-	font-size: 3vw;
+	font-size: 5vw;
+	margin-top: 20px;
+	padding-top: 30px;
+}
+#arrow-img {
+	padding-bottom: 30px;
 }
 
 h2 {
-	font-size: 3vw;
+	font-size: 4vw;
+	padding-top: 30px;
 }
 
 p{
-	font-size: 1.5vw;
+	font-size: 20px;
 }
 h1{
-	padding:0px;
+	padding-top: 60px;
+	padding-bottom: 20px;
+	font-size:90px;
+	margin-bottom: 10px;
+}
+#intro-photo {
+	max-width:200px;
 }
 
 /* footer text */ 
 
 h3{
-	font-size: 1.5vw;
+	font-size: 25px;
 	font-weight:bold;
-	padding-top:20px;
+	padding-top:10px;
 	padding-bottom:0;
+}
+
+/* Image Carousel */
+
+.caption {
+ font-size: 40px; 
+
+}
+#next, #previous, #play-pause {
+	font-size: 40px;
 }
 
 #footer {
@@ -518,7 +536,6 @@ h3{
 	justify-content: center; 
 }
 }
-
 
 /* Media Query Desktop */ 
 
@@ -549,6 +566,7 @@ h3{
 		font-size:3.5vw;
 		margin-bottom:0;
 		padding-bottom:0;
+		padding-top:10px;
 	}
 
 
@@ -586,11 +604,18 @@ h3{
 		max-width:60px;
 	}
 
+	#play-pause, #previous, #next{
+		font-size:40px;
+		letter-spacing:25px;
+	}
 	
 
 	button {
 		font-size:5vw;
 
+	}
+	h3 {
+		margin-top:30px;
 	}
 }
 
