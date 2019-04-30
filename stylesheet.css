@@ -184,8 +184,8 @@ h2{
 
 p {
 	font-family:'Nixie One', sans-serif;
-    font-size:12px;
-    margin-right:35px;
+  font-size:12px;
+  margin-right:35px;
 	margin-left:35px;
 	margin-bottom:50px;
 	color: #22252C;
@@ -256,7 +256,7 @@ img {
 
 .caption {
   color: white;
-  font-size:3vw;
+  font-size:20px;
   position: relative;
   width: 100%;
 	text-align:center;
@@ -569,6 +569,12 @@ h3{
 		margin-right:80px;
 		margin-left:80px;
 
+	}
+
+	/* image carousel */ 
+
+	.caption {
+		font-size:3vw;
 	}
 
 	.logos {
